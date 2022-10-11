@@ -1,4 +1,7 @@
 # esp-idf-devcontainer
+
+[![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v4.4.2_qemu_20220919) ![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v3.3.6_qemu_20220919)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags)
+
 docker image for developing espressif idf in VS Code devcontainer
 
 ## How to use
@@ -7,8 +10,13 @@ docker image for developing espressif idf in VS Code devcontainer
 2. Replace `.devcontainer/Dockerfile` with:
 
   ```dockerfile
-  FROM biggates/esp-idf-devcontainer
+  FROM biggates/esp-idf-devcontainer:(TAG)
   ```
+
+## Available tags
+
+* `biggates/esp-idf-devcontainer:idf_v4.4.2_qemu_20220919`
+* `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20220919`
 
 ## Solved Problem
 
@@ -33,7 +41,17 @@ This project provides a pre-built image so you can skip this build process.
 * python
 * install python requirements by `python -m pip install -r requirements.txt`
 
-### How to build
+### Add more idf versions
+
+Supported idf versions (tags) are stored in [idf_versions.json](./idf_versions.json) as a whitelist.
+
+### Add more qemu versions
+
+Known espressif/qemu info are stored in [qemu_versions.json](./qemu_versions.json) as a list.
+
+The tricky part is that you have to specify sha256 of the asset.
+
+### How to build an image
 
 build all tags:
 
@@ -41,7 +59,7 @@ build all tags:
 $ python scripts/main.py build --all
 ```
 
-build specific tag:
+build specific one or more tags:
 
 ```bash
 $ python scripts/main.py build v4.3.4
