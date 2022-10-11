@@ -1,14 +1,17 @@
 [{
+    "version": "20220919",
     "rel": "esp-develop-20220919",
     "sha256": "f6565d3f0d1e463a63a7f81aec94cce62df662bd42fc7606de4b4418ed55f870",
     "dist": "qemu-esp-develop-20220919.tar.bz2",
     "url": "https://github.com/espressif/qemu/releases/download/esp-develop-20220919/qemu-esp-develop-20220919.tar.bz2"
 }, {
+    "version": "20220802",
     "rel": "esp-develop-20220802",
     "sha256": "a1a25548a243056a6f4242ea8edfbf6f86ba1e1515448989ea945b75faf67a1b",
     "dist": "qemu-esp-develop-20220802.tar.bz2",
     "url": "https://github.com/espressif/qemu/releases/download/esp-develop-20220802/qemu-esp-develop-20220802.tar.bz2"
 }, {
+    "version": "20220203",
     "rel": "esp-develop-20220203",
     "sha256": "c83e483e3290f48a563c2a376b7413cd94a8692d8c7308b119f4268ca6d164b6",
     "dist": "qemu-esp-develop-20220203.tar.bz2",
