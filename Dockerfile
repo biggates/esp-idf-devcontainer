@@ -28,7 +28,7 @@ RUN apt-get update \
 RUN update-alternatives --install /usr/local/bin/usbip usbip `ls /usr/lib/linux-tools/*/usbip | tail -n1` 20
 
 # pre-commit
-RUN python -m pip install pre-commit
+RUN /opt/esp/entrypoint.sh python -m pip install pre-commit
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8

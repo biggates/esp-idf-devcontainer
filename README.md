@@ -15,6 +15,7 @@ docker image for developing espressif idf in VS Code devcontainer
 
 ## Available tags
 
+* `biggates/esp-idf-devcontainer:idf_v5.0_qemu_20220919`
 * `biggates/esp-idf-devcontainer:idf_v4.4.3_qemu_20220919`
 * `biggates/esp-idf-devcontainer:idf_v4.4.2_qemu_20220919`
 * `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20220919`

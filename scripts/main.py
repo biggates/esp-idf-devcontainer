@@ -63,6 +63,7 @@ def _build(tag: str, qemu_version: str, verbose: bool = False):
     ]
 
     if verbose:
+        args.append("--progress=plain")
         click.echo(f"will run: {click.style(' '.join(args), fg='yellow')}")
 
     completed_process = subprocess.run(args)
