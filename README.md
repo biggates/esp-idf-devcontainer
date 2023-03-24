@@ -1,6 +1,6 @@
 # esp-idf-devcontainer
 
-[![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v4.4.3_qemu_20220919) ![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v3.3.6_qemu_20220919)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags)
+[![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v5.0.1_qemu_20220919) ![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v4.4.3_qemu_20220919) ![](https://img.shields.io/docker/pulls/biggates/esp-idf-devcontainer?label=idf_v3.3.6_qemu_20220919)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags)
 
 docker image for developing espressif idf in VS Code devcontainer
 
@@ -15,7 +15,9 @@ docker image for developing espressif idf in VS Code devcontainer
 
 ## Available tags
 
+* `biggates/esp-idf-devcontainer:idf_v5.0.1_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v5.0_qemu_20220919`
+* `biggates/esp-idf-devcontainer:idf_v4.4.4_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.4.3_qemu_20220919`
 * `biggates/esp-idf-devcontainer:idf_v4.4.2_qemu_20220919`
 * `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20220919`
