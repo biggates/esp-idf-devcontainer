@@ -68,3 +68,9 @@ build specific one or more tags:
 ```bash
 $ python scripts/main.py build v4.3.4
 ```
+
+### How to push a tag
+
+```bash
+$ python scripts/main.py push v5.0.1
+```
