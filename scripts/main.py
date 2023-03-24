@@ -93,8 +93,7 @@ def _push(tag: str, qemu_version: str, verbose: bool = False):
     args = [
         "docker",
         "push",
-        full_tag_name,
-        ".",
+        full_tag_name
     ]
 
     if verbose:
