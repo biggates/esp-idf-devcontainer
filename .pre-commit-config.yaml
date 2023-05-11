@@ -1,11 +1,31 @@
 repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks.git
+    rev: v4.4.0
+    hooks:
+    - id: check-merge-conflict
+    - id: check-toml
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: trailing-whitespace
   - repo: https://github.com/psf/black.git
-    rev: 22.10.0
+    rev: 23.3.0
     hooks:
       - id: black
         language_version: python3
   - repo: https://github.com/PyCQA/isort.git
-    rev: 5.10.1
+    rev: 5.12.0
     hooks:
       - id: isort
         args: ['--profile', 'black', '--filter-files']
+  - repo: https://github.com/charliermarsh/ruff-pre-commit.git
+    rev: v0.0.265
+    hooks:
+      - id: ruff
+        args:
+          - "--fix"
+  - repo: https://github.com/pre-commit/mirrors-prettier.git
+    rev: v2.7.1
+    hooks:
+      - id: prettier
+        types: [json]

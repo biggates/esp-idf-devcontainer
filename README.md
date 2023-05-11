@@ -1,6 +1,6 @@
 # esp-idf-devcontainer
 
-[![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.1_qemu_20230223?label=biggates%2Fidf_v5.0.1_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.4.4_qemu_20230223?label=biggates%2Fidf_v4.4.4_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v3.3.6_qemu_20230223?label=biggates%2Fidf_v3.3.6_qemu_20230223&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags) [![Docker Publish](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml/badge.svg)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml)
+[![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.2_qemu_20230223?label=biggates%2Fidf_v5.0.2_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.4.4_qemu_20230223?label=biggates%2Fidf_v4.4.4_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.3.5_qemu_20230223?label=biggates%2Fidf_v4.3.5_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v3.3.6_qemu_20220919?label=biggates%2Fidf_v3.3.6_qemu_20220919&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags) [![Docker Publish](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml/badge.svg)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml)
 
 docker image for developing espressif idf in VS Code devcontainer
 
@@ -18,13 +18,16 @@ https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.
 
 ## Available tags
 
+* `biggates/esp-idf-devcontainer:idf_v5.0.2_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v5.0.1_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.4.4_qemu_20230223`
+* `biggates/esp-idf-devcontainer:idf_v4.3.5_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.3.4_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.2.4_qemu_20230223`
+* `biggates/esp-idf-devcontainer:idf_v4.1.4_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.1.3_qemu_20230223`
 * `biggates/esp-idf-devcontainer:idf_v4.0.4_qemu_20230223`
-* `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20230223`
+* `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20220919`
 
 ## Solved Problem
 
@@ -59,7 +62,7 @@ Known espressif/qemu info are stored in [qemu_versions.json](./qemu_versions.jso
 
 The tricky part is that you have to specify sha256 of the asset.
 
-### How to build an image
+### How to build an image manually
 
 build all tags:
 
@@ -73,7 +76,7 @@ build specific one or more tags:
 $ python scripts/main.py build v4.3.4
 ```
 
-### How to push a tag
+### How to push an image
 
 ```bash
 $ python scripts/main.py push v5.0.1
