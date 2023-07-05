@@ -1,4 +1,10 @@
 [{
+    "version": "20230522",
+    "rel": "esp-develop-8.0.0-20230522",
+    "sha256": "a7e5e779fd593cb15f6d197034dc2fb427ed9165a4743e2febc6f6a47dfcc618",
+    "dist": "esp-qemu-xtensa-softmmu-develop_8.0.0_20230522-x86_64-linux-gnu.tar.bz2",
+    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.0.0-20230522/esp-qemu-xtensa-softmmu-develop_8.0.0_20230522-x86_64-linux-gnu.tar.bz2"
+}, {
     "version": "20230223",
     "rel": "esp-develop-7.2.0-20230223",
     "sha256": "7ac441ddbc0435350cc02266ede63fb5d3da37acc70ae61c293c7c3c9ba4636f",
