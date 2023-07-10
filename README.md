@@ -1,6 +1,6 @@
 # esp-idf-devcontainer
 
-[![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.2_qemu_20230223?label=biggates%2Fidf_v5.0.2_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.4.4_qemu_20230223?label=biggates%2Fidf_v4.4.4_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.3.5_qemu_20230223?label=biggates%2Fidf_v4.3.5_qemu_20230223&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v3.3.6_qemu_20220919?label=biggates%2Fidf_v3.3.6_qemu_20220919&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags) [![Docker Publish](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml/badge.svg)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml)
+[![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.1_qemu_20230522?label=biggates%2Fidf_v5.1_qemu_20230522&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.2_qemu_20230522?label=biggates%2Fidf_v5.0.2_qemu_20230522&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.4.5_qemu_20230522?label=biggates%2Fidf_v4.4.5_qemu_20230522&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.3.5_qemu_20230522?label=biggates%2Fidf_v4.3.5_qemu_20230522&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v3.3.6_qemu_20230522?label=biggates%2Fidf_v3.3.6_qemu_20230522&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags) [![Docker Publish](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml/badge.svg)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml)
 
 docker image for developing espressif idf in VS Code devcontainer
 
@@ -13,19 +13,14 @@ docker image for developing espressif idf in VS Code devcontainer
   FROM biggates/esp-idf-devcontainer:(TAG)
   ```
 
-
-https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.1_qemu_20230223?label=biggates%2Fidf_v5.0.1_qemu_20230223&logo=docker
-
 ## Available tags
 
+* `biggates/esp-idf-devcontainer:idf_v5.1_qemu_20230522`
 * `biggates/esp-idf-devcontainer:idf_v5.0.2_qemu_20230522`
-* `biggates/esp-idf-devcontainer:idf_v5.0.1_qemu_20230522`
-* `biggates/esp-idf-devcontainer:idf_v4.4.4_qemu_20230522`
+* `biggates/esp-idf-devcontainer:idf_v4.4.5_qemu_20230522`
 * `biggates/esp-idf-devcontainer:idf_v4.3.5_qemu_20230522`
-* `biggates/esp-idf-devcontainer:idf_v4.3.4_qemu_20230522`
-* `biggates/esp-idf-devcontainer:idf_v4.2.4_qemu_20230522`
+* `biggates/esp-idf-devcontainer:idf_v4.2.5_qemu_20230522`
 * `biggates/esp-idf-devcontainer:idf_v4.1.4_qemu_20230522`
-* `biggates/esp-idf-devcontainer:idf_v4.1.3_qemu_20230522`
 * `biggates/esp-idf-devcontainer:idf_v4.0.4_qemu_20230522`
 * `biggates/esp-idf-devcontainer:idf_v3.3.6_qemu_20230522`
 
