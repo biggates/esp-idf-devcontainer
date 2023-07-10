@@ -1,0 +1,6 @@
+[tool.ruff]
+select = ["E", "F", "I"]
+ignore = ["F821", "E501"]
+
+[tool.ruff.isort]
+known-first-party = ["eaphone"]
