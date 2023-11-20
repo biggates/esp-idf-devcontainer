@@ -87,14 +87,10 @@ def _push(tag: str, qemu_version: str, verbose: bool = False):
         f"building tag={click.style(tag, fg='green')}, qemu={click.style(qemu_version, fg='green')}"
     )
 
-    qemu_item = _get_qemu_item(qemu_version)
+    _get_qemu_item(qemu_version)
     full_tag_name = f"{DOCKER_IMAGE_NAME}:idf_{tag}_qemu_{qemu_version}"
 
-    args = [
-        "docker",
-        "push",
-        full_tag_name
-    ]
+    args = ["docker", "push", full_tag_name]
 
     if verbose:
         args.append("--progress=plain")
@@ -108,6 +104,7 @@ def _push(tag: str, qemu_version: str, verbose: bool = False):
         click.echo(
             f"docker returned {click.style(completed_process.returncode, fg='red')} when pushing tag {click.style(full_tag_name, fg='red')}"
         )
+
 
 @click.group
 def main():
@@ -125,6 +122,14 @@ def main():
 @click.argument("tags", type=click.Choice(_get_all_tags()), nargs=-1, required=False)
 @click.option("--verbose", type=bool, required=False, default=False, is_flag=True)
 def build(tags: List[str], all: bool, qemu_version: str, verbose: bool = False):
+    """Build docker image(s)
+
+    Args:
+        tags (List[str]): build specified (multiple) tag(s)
+        all (bool): build all tags specified by idf_versions.json
+        qemu_version (str): specify QEMU version
+        verbose (bool, optional): output more details. Defaults to False.
+    """
     _all_tags = _get_all_tags()
     if all:
         tags = _all_tags
@@ -157,6 +162,14 @@ def build(tags: List[str], all: bool, qemu_version: str, verbose: bool = False):
 @click.argument("tags", type=click.Choice(_get_all_tags()), nargs=-1, required=False)
 @click.option("--verbose", type=bool, required=False, default=False, is_flag=True)
 def push(tags: List[str], all: bool, qemu_version: str, verbose: bool = False):
+    """Push specified docker image(s) by tag
+
+    Args:
+        tags (List[str]): specified idf version(s)
+        all (bool): push all tags defined in idf_versions.json
+        qemu_version (str): specify QEMU version
+        verbose (bool, optional): output more details. Defaults to False.
+    """
     _all_tags = _get_all_tags()
     if all:
         tags = _all_tags
