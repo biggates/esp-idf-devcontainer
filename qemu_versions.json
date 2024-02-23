@@ -1,5 +1,19 @@
 [
   {
+    "version": "20240122",
+    "rel": "esp-develop-8.2.0_20240122",
+    "sha256": "95ac86d7b53bf98b5ff19c33aa926189b849f5a0daf8f41e160bc86c5e31abd4",
+    "dist": "qemu-riscv32-softmmu-esp_develop_8.2.0_20240122-x86_64-linux-gnu.tar.xz",
+    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.2.0-20240122/qemu-riscv32-softmmu-esp_develop_8.2.0_20240122-x86_64-linux-gnu.tar.xz"
+  },
+  {
+    "version": "20231206",
+    "rel": "esp_develop_8.1.3_20231206",
+    "sha256": "88176f41c2fb17448372b4a120109275270c0e6bc49af4938f9f82d48e02f126",
+    "dist": "qemu-xtensa-softmmu-esp_develop_8.1.3_20231206-x86_64-linux-gnu.tar.xz",
+    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.1.3-20231206/qemu-xtensa-softmmu-esp_develop_8.1.3_20231206-x86_64-linux-gnu.tar.xz"
+  },
+  {
     "version": "20231017",
     "rel": "esp-develop-8.1.2_20231017",
     "sha256": "3f5a60b92ac10950c424d5494e91ae43e65dd2ba48b590050712adc9f40f6625",
