@@ -2,16 +2,11 @@ ARG IDF_VERSION=latest
 
 FROM alpine as download_qemu
 
-# QEMU
-ARG QEMU_REL=esp-develop-20220203
-ARG QEMU_SHA256=c83e483e3290f48a563c2a376b7413cd94a8692d8c7308b119f4268ca6d164b6
-ARG QEMU_DIST=qemu-${QEMU_REL}.tar.bz2
-ARG QEMU_URL=https://github.com/espressif/qemu/releases/download/${QEMU_REL}/${QEMU_DIST}
+ARG QEMU_SHA256
 
-RUN wget --no-verbose ${QEMU_URL} \
-  && echo "${QEMU_SHA256}  ${QEMU_DIST}" | sha256sum -c - \
-  && tar -xf $QEMU_DIST -C /opt \
-  && rm ${QEMU_DIST}
+RUN --mount=type=bind,source=qemu.tar.gz,target=/qemu.tar.gz \
+  echo "${QEMU_SHA256}  /qemu.tar.gz" | sha256sum -c - \
+  && tar -xf /qemu.tar.gz -C /opt
 
 FROM espressif/idf:$IDF_VERSION
 
