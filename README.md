@@ -1,6 +1,6 @@
 # esp-idf-devcontainer
 
-[![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.2.2_qemu_20240122?label=biggates%2Fidf_v5.2.2_qemu_20240122&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.1.4_qemu_20240122?label=biggates%2Fidf_v5.1.4_qemu_20240122&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v5.0.6_qemu_20240122?label=biggates%2Fidf_v5.0.6_qemu_20240122&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.4.7_qemu_20240122?label=biggates%2Fidf_v4.4.7_qemu_20240122&logo=docker) ![](https://img.shields.io/docker/image-size/biggates/esp-idf-devcontainer/idf_v4.3.7_qemu_20240122?label=biggates%2Fidf_v4.3.7_qemu_20240122&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer/tags) [![Docker Publish](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml/badge.svg)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker_publish.yml)
+[![v5.3.1_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.3.1_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.3.1_qemu_20240606&logo=docker) ![v5.2.3_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.2.3_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.2.3_qemu_20240606&logo=docker) ![v5.2.2_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.2.2_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.2.2_qemu_20240606&logo=docker) ![v5.1.4_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.1.4_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.1.4_qemu_20240606&logo=docker) ![v5.1.3_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.1.3_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.1.3_qemu_20240606&logo=docker) ![v5.0.7_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v5.0.7_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv5.0.7_qemu_20240606&logo=docker) ![v4.4.8_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v4.4.8_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv4.4.8_qemu_20240606&logo=docker) ![v4.3.7_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v4.3.7_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv4.3.7_qemu_20240606&logo=docker) ![v4.2.5_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v4.2.5_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv4.2.5_qemu_20240606&logo=docker) ![v4.1.4_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v4.1.4_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv4.1.4_qemu_20240606&logo=docker) ![v4.0.4_qemu_20240606 badge](https://img.shields.io/docker/v/biggates/esp-idf-devcontainer/v4.0.4_qemu_20240606?label=biggates%2Fesp-idf-devcontainer%2Fv4.0.4_qemu_20240606&logo=docker)](https://hub.docker.com/r/biggates/esp-idf-devcontainer) [![Docker Publish Badge](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker-publish.yml/badge.svg?branch=master)](https://github.com/biggates/esp-idf-devcontainer/actions/workflows/docker-publish.yml)
 
 docker image for developing espressif idf in VS Code devcontainer
 
@@ -15,14 +15,17 @@ docker image for developing espressif idf in VS Code devcontainer
 
 ## Available tags
 
-* `biggates/esp-idf-devcontainer:idf_v5.2.2_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v5.1.4_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v5.0.6_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v4.4.7_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v4.3.7_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v4.2.5_qemu_20240122`
-* `biggates/esp-idf-devcontainer:idf_v4.1.4_qemu_20230223`
-* `biggates/esp-idf-devcontainer:idf_v4.0.4_qemu_20230223`
+- `biggates/esp-idf-devcontainer:v5.3.1_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v5.2.3_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v5.2.2_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v5.1.4_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v5.1.3_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v5.0.7_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v4.4.8_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v4.3.7_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v4.2.5_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v4.1.4_qemu_20240606`
+- `biggates/esp-idf-devcontainer:v4.0.4_qemu_20240606`
 
 ## Solved Problem
 
