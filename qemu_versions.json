@@ -1,7 +1,7 @@
 [
   {
     "version": "20240606",
-    "rel": "esp_develop_9.0.0_20240606",
+    "rel": "esp-develop-9.0.0-20240606",
     "sha256": "071d117c44a6e9a1bc8664ab63b592d3e17ceb779119dcb46c59571a4a7a88c9",
     "dist": "qemu-xtensa-softmmu-esp_develop_9.0.0_20240606-x86_64-linux-gnu.tar.xz",
     "url": "https://github.com/espressif/qemu/releases/download/esp-develop-9.0.0-20240606/qemu-xtensa-softmmu-esp_develop_9.0.0_20240606-x86_64-linux-gnu.tar.xz"
