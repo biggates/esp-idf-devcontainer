@@ -1,5 +1,12 @@
 [
   {
+    "version": "20250228",
+    "rel": "esp-develop-9.2.2-20250228",
+    "sha256": "0ad2f51961ce8f0890c55474c70101201afc59c6464fe8502c39af523a641244",
+    "dist": "qemu-xtensa-softmmu-esp_develop_9.2.2_20250228-x86_64-linux-gnu.tar.xz",
+    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-9.2.2-20250228/qemu-xtensa-softmmu-esp_develop_9.2.2_20250228-x86_64-linux-gnu.tar.xz"
+  },
+  {
     "version": "20240606",
     "rel": "esp-develop-9.0.0-20240606",
     "sha256": "071d117c44a6e9a1bc8664ab63b592d3e17ceb779119dcb46c59571a4a7a88c9",
@@ -12,54 +19,5 @@
     "sha256": "95ac86d7b53bf98b5ff19c33aa926189b849f5a0daf8f41e160bc86c5e31abd4",
     "dist": "qemu-riscv32-softmmu-esp_develop_8.2.0_20240122-x86_64-linux-gnu.tar.xz",
     "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.2.0-20240122/qemu-riscv32-softmmu-esp_develop_8.2.0_20240122-x86_64-linux-gnu.tar.xz"
-  },
-  {
-    "version": "20231206",
-    "rel": "esp-develop_8.1.3-20231206",
-    "sha256": "88176f41c2fb17448372b4a120109275270c0e6bc49af4938f9f82d48e02f126",
-    "dist": "qemu-xtensa-softmmu-esp_develop_8.1.3_20231206-x86_64-linux-gnu.tar.xz",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.1.3-20231206/qemu-xtensa-softmmu-esp_develop_8.1.3_20231206-x86_64-linux-gnu.tar.xz"
-  },
-  {
-    "version": "20231017",
-    "rel": "esp-develop-8.1.2-20231017",
-    "sha256": "3f5a60b92ac10950c424d5494e91ae43e65dd2ba48b590050712adc9f40f6625",
-    "dist": "esp-qemu-xtensa-softmmu-develop_8.1.2_20231017-x86_64-linux-gnu.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.1.2-20231017/esp-qemu-xtensa-softmmu-develop_8.1.2_20231017-x86_64-linux-gnu.tar.bz2"
-  },
-  {
-    "version": "20230522",
-    "rel": "esp-develop-8.0.0-20230522",
-    "sha256": "a7e5e779fd593cb15f6d197034dc2fb427ed9165a4743e2febc6f6a47dfcc618",
-    "dist": "esp-qemu-xtensa-softmmu-develop_8.0.0_20230522-x86_64-linux-gnu.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-8.0.0-20230522/esp-qemu-xtensa-softmmu-develop_8.0.0_20230522-x86_64-linux-gnu.tar.bz2"
-  },
-  {
-    "version": "20230223",
-    "rel": "esp-develop-7.2.0-20230223",
-    "sha256": "7ac441ddbc0435350cc02266ede63fb5d3da37acc70ae61c293c7c3c9ba4636f",
-    "dist": "esp-qemu-xtensa-softmmu-develop_7.2.0_20230223-x86_64-linux-gnu.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-7.2.0-20230223/esp-qemu-xtensa-softmmu-develop_7.2.0_20230223-x86_64-linux-gnu.tar.bz2"
-  },
-  {
-    "version": "20220919",
-    "rel": "esp-develop-20220919",
-    "sha256": "f6565d3f0d1e463a63a7f81aec94cce62df662bd42fc7606de4b4418ed55f870",
-    "dist": "qemu-esp-develop-20220919.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-20220919/qemu-esp-develop-20220919.tar.bz2"
-  },
-  {
-    "version": "20220802",
-    "rel": "esp-develop-20220802",
-    "sha256": "a1a25548a243056a6f4242ea8edfbf6f86ba1e1515448989ea945b75faf67a1b",
-    "dist": "qemu-esp-develop-20220802.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-20220802/qemu-esp-develop-20220802.tar.bz2"
-  },
-  {
-    "version": "20220203",
-    "rel": "esp-develop-20220203",
-    "sha256": "c83e483e3290f48a563c2a376b7413cd94a8692d8c7308b119f4268ca6d164b6",
-    "dist": "qemu-esp-develop-20220203.tar.bz2",
-    "url": "https://github.com/espressif/qemu/releases/download/esp-develop-20220203/qemu-esp-develop-20220203.tar.bz2"
   }
 ]
