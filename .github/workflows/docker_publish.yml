@@ -24,17 +24,17 @@ jobs:
 
     strategy:
       matrix:
-        idf_version: ["v5.3.2", "v5.3.1", "v5.2.3", "v5.2.2", "v5.1.5", "v5.1.4", "v5.0.7"]
-        qemu_version: ["20240606", "20240122"]
+        idf_version: ["v5.4.2", "v5.4.1", "v5.3.3", "v5.3.2", "v5.2.5", "v5.2.4", "v5.1.6", "v5.1.5", "v5.0.9"]
+        qemu_version: ["20250228", "20240606"]
         include:
+        - qemu_version: "20250228"
+          qemu_release: "esp-develop-9.2.2-20250228"
+          qemu_dist: "qemu-xtensa-softmmu-esp_develop_9.2.2_20250228-x86_64-linux-gnu.tar.xz"
+          qemu_sha256: "0ad2f51961ce8f0890c55474c70101201afc59c6464fe8502c39af523a641244"
         - qemu_version: "20240606"
           qemu_release: "esp-develop-9.0.0-20240606"
           qemu_dist: "qemu-xtensa-softmmu-esp_develop_9.0.0_20240606-x86_64-linux-gnu.tar.xz"
           qemu_sha256: "071d117c44a6e9a1bc8664ab63b592d3e17ceb779119dcb46c59571a4a7a88c9"
-        - qemu_version: "20240122"
-          qemu_release: "esp-develop-8.2.0-20240122"
-          qemu_dist: "qemu-riscv32-softmmu-esp_develop_8.2.0_20240122-x86_64-linux-gnu.tar.xz"
-          qemu_sha256: "95ac86d7b53bf98b5ff19c33aa926189b849f5a0daf8f41e160bc86c5e31abd4"
 
     steps:
       - name: Checkout repository
